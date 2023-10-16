@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <title>Ignite Shop</title>
+      
       <meta name="description" content="Your dev main store!" />
         
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
