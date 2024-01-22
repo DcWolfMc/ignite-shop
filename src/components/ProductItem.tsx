@@ -20,7 +20,7 @@ export const ProductItem: FunctionComponent<ProdutItemProps> = ({
       <Image src={image} width={520} height={480} alt="" className="cover" />
       <footer className="absolute bottom-0 p-8 w-full flex flex-row justify-between items-center rounded-b-xl bg-gray-800 bg-opacity-60  transition-all duration-200  translate-y-[100%] group-hover:translate-y-[0%]">
         <strong className="text-lg font-bold"> {title}</strong>
-        <span className="text-xl font-bold text-green-300">R$ {price}</span>
+        <span className="text-xl font-bold text-green-300">{price}</span>
       </footer>
     </div>
   );

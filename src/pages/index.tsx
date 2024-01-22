@@ -1,9 +1,9 @@
-import { GetStaticProps } from "next";
-import Stripe from "stripe";
-import { stripe } from "@/lib/stripe";
-import { useKeenSlider } from "keen-slider/react";
 import { ProductItem } from "@/components/ProductItem";
+import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import { GetServerSideProps, GetStaticProps } from "next";
+import { stripe } from "@/lib/stripe";
+import Stripe from "stripe";
 
 interface Homeprops {
   products: {
